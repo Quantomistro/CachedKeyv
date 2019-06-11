@@ -1,11 +1,11 @@
-# CachedKeyv
+# ⚡ CachedKeyv
 Built on top of [Keyv](https://github.com/lukechilds/keyv), CachedKeyv uses a simple in-memory cache to store and serve data significantly faster during runtime. Actual database operations are queued up behind-the-scenes.
 
-## Installing
-Clone the repo/download the repo... <br/>
-*I haven't published it to npm yet...*
+## 📥 Installing
+Clone/download the repo... <br/>
+*I haven't published it to npm yet* 👀
 
-## Usage
+## ✨ Usage
 
 ### Quick guide
 
@@ -96,7 +96,7 @@ Number specifying the default time-to-live expiry for the cache. This can be ove
 
 #### `Instance`
 
-The CacedKeyv instances expose the same get/set/delete/clear API that Keyv exposes. See [here]() for more.
+The CachedKeyv instances expose the same get/set/delete/clear API that Keyv exposes. See [here]() for more.
 <br/>
 
 ##### `on([emitter], event, listener)`
@@ -123,9 +123,10 @@ keyv.off('error', console.log);            // Detaches listener from both db and
 ```
 <br/>
 
-## License
+## 📜 License
 
 [MIT](https://github.com/Quantomistro3178/CachedKeyv/blob/master/LICENSE)
 
-[@Quantomistro3178](https://github.com/Quantomistro3178)
+<br/>
 
+> [@Quantomistro3178](https://github.com/Quantomistro3178)
