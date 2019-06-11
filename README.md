@@ -52,6 +52,7 @@ keyv.on('error', console.log);            // Attaches listener to both db and ca
 <br/>
 
 ### API
+<hr/>
 
 #### `new CachedKeyv([uri], [options])`
 
@@ -123,10 +124,10 @@ keyv.off('error', console.log);            // Detaches listener from both db and
 ```
 <br/>
 
-## 📜 License
+## License
 
-[MIT](https://github.com/Quantomistro3178/CachedKeyv/blob/master/LICENSE)
+[MIT License](https://github.com/Quantomistro3178/CachedKeyv/blob/master/LICENSE)
 
-<br/>
+<hr/>
 
-> [@Quantomistro3178](https://github.com/Quantomistro3178)
+[@Quantomistro3178](https://github.com/Quantomistro3178)
