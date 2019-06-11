@@ -1,0 +1,15 @@
+{
+  "name": "cached-keyv",
+  "version": "0.1.0",
+  "description": "Keyv with simple in-memory caching.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests/tests.js"
+  },
+  "keywords": [],
+  "author": "Quantomistro3178",
+  "license": "MIT",
+  "dependencies": {
+    "keyv": "^3.1.0"
+  }
+}
