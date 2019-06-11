@@ -1,4 +1,4 @@
-const { CachedKeyv } = require('../index.js');
+const CachedKeyv = require('../index.js');
 
 const obj = {
     name: 'Panda',
@@ -10,8 +10,7 @@ const obj = {
 (async function main() {
     const rand = Math.floor(Math.random() * 1000000);
     const ckv = new CachedKeyv(`sqlite://./${rand}.sqlite`);
-    ckv.on('db', 'error', e => { throw e });
-    ckv.on('cache', 'error', e => { throw e });
+    ckv.on('error', e => { throw e });
 
     // 1k writes
     const t1 = Date.now();
