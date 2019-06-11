@@ -8,6 +8,7 @@ Clone/download the repo... <br/>
 ## ✨ Usage
 
 ### Quick guide
+<hr/>
 
 CachedKeyv exposes the same get/set/delete API exposed by Keyv, with the same parameters and usage.
 ```js
