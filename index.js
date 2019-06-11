@@ -30,6 +30,9 @@ class CachedKeyv {
             this.db.on(event, listener);
         } else if (emitter === 'cache') {
             this.cache.on(event, listener);
+        } else if (typeof event === 'function') {
+            this.db.on(emitter, event);
+            this.cache.on(emitter, event);
         }
     }
 
@@ -38,6 +41,9 @@ class CachedKeyv {
             this.db.off(event, listener);
         } else if (emitter === 'cache') {
             this.cache.off(event, listener);
+        } else if (typeof event === 'function') {
+            this.db.off(emitter, event);
+            this.cache.off(emitter, event);
         }
     }
 
@@ -87,4 +93,5 @@ class CachedKeyv {
         this.enqueue(() => this.db.clear());
     }
 }
-exports.CachedKeyv = CachedKeyv;
+
+module.exports = CachedKeyv;
