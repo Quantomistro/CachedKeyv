@@ -1,4 +1,4 @@
-# ⚡ CachedKeyv
+﻿# ⚡ CachedKeyv
 Built on top of [Keyv](https://github.com/lukechilds/keyv), CachedKeyv uses a simple in-memory cache to store and serve data significantly faster during runtime. Actual database operations are queued up behind-the-scenes.
 
 ## 📥 Installing
@@ -131,4 +131,4 @@ keyv.off('error', console.log);            // Detaches listener from both db and
 
 <hr/>
 
-[@Quantomistro3178](https://github.com/Quantomistro3178)
+[@Quantomistro](https://github.com/Quantomistro)
