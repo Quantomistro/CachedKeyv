@@ -1,10 +1,6 @@
 # ⚡ CachedKeyv
 Built on top of [Keyv](https://github.com/lukechilds/keyv), CachedKeyv uses a simple in-memory cache to store and serve data significantly faster during runtime. Actual database operations are queued up behind-the-scenes.
 
-## 📥 Installing
-Clone/download the repo... <br/>
-*I haven't published it to npm yet* 👀
-
 ## ✨ Usage
 
 ### Quick guide
