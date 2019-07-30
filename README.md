@@ -1,7 +1,4 @@
-# ⚡ CachedKeyv
-Built on top of [Keyv](https://github.com/lukechilds/keyv), CachedKeyv uses a simple in-memory cache to store and serve data significantly faster during runtime. Actual database operations are queued up behind-the-scenes.
-
-## ✨ Usage
+This is an extension of [Keyv](https://github.com/lukechilds/keyv). CachedKeyv uses a simple in-memory cache to store and serve data significantly faster during runtime. Actual database operations are queued up behind-the-scenes.
 
 ### Quick guide
 <hr/>
@@ -120,11 +117,3 @@ keyv.off('cache', 'error', console.log);   // Detaches listener from only cache
 keyv.off('error', console.log);            // Detaches listener from both db and cache
 ```
 <br/>
-
-## License
-
-[MIT License](https://github.com/Quantomistro3178/CachedKeyv/blob/master/LICENSE)
-
-<hr/>
-
-[@quantomistro](https://github.com/quantomistro)
